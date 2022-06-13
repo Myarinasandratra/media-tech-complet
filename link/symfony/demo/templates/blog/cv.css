@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+body{
+  background: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container{
+
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px; 
+background: #fff;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr ;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+.profiltext{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 20px;
+ color: #fff;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profiltext .imgBx{
+     
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+
+}
+.profiltext .imgBx img{
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.profiltext h2{
+color: #fff;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.5em;
+
+}
+.contact{
+    color: #fff;
+    padding-top: 40px;
+}
+
+.contact ul li{
+position: relative;
+list-style: none;
+margin: 10px 0;
+cursor: pointer;
+
+}
+.contact  ul li .icon {
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: aquamarine;
+
+}
+
+
+.container .left_side{
+position: relative;
+background:#0e1430;
+padding: 40px;
+}
+.container .right_side{
+
+}
